@@ -8,5 +8,5 @@ def Add(a):
   if(a == ""):
     return 0
   
-  elif(len(a) == 1):
+  elif(a.isdigit() and len(a) == 1):
     return int(a)
