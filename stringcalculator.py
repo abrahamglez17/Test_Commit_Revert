@@ -13,4 +13,5 @@ def Add(a):
     return int(a)
 
   # two number case
-  
+  elif(len(a) == 3):
+    return int(a[0]) + int(a[2])
