@@ -5,5 +5,5 @@ def Add(a):
   #Add implementation
 
   # simplest case
-  
-  return 0
+  if(a == ""):
+    return 0
