@@ -7,3 +7,5 @@ def Add(a):
   # simplest case
   if(a == ""):
     return 0
+
+    
