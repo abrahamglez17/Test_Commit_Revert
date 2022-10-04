@@ -9,4 +9,4 @@ def Add(a):
     return 0
   
   elif(len(a) == 1):
-    return a
+    return int(a)
